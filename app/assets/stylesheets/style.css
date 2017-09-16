@@ -1,0 +1,305 @@
+#info {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+  z-index: 9999;
+}
+
+
+body {
+  background-color:#000;
+}
+
+#skroll-container {
+  height:2000px;
+
+}
+
+
+#welcome-to-blackops {
+  position:relative;
+  width:100%;
+  height:100%;
+  background-color:#000000;
+  color:#fff;
+  z-index:1002;
+}
+
+#typewriter-container {
+  position:absolute;
+  width:32em;
+  left:50%;
+  top:40%;
+  margin-left:-16em;
+}
+
+#welcome-to-blackops h1 {
+
+}
+
+
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(19, end),
+    blink-caret .75s step-end infinite;
+  text-transform: uppercase;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+#blackops-athlete-driven {
+  position:relative;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  color:#fff;
+}
+
+#blackops-athlete-driven img {
+  
+  width:100%;
+  position:absolute;
+  top:900px;
+  left:0;
+  z-index:12;
+  background-color:#000; 
+}
+
+#blackops-athlete-driven div {
+  position:absolute;
+  z-index:13;
+  top:1240px;
+  left:33%;
+  width:33%;
+  color:#fff;
+  margin:0 auto 0 auto;
+  text-align:center;
+}
+
+#blackops-1 div {
+  position:fixed;
+  color:#fff;
+  z-index:14;
+  left:33%;
+  width:33%;
+  top:40%;
+}
+
+#blackops-2 div  {
+  position:fixed;
+  color:#fff;
+  z-index:15;
+  left:33%;
+  width:33%;
+  top:55%;
+}
+
+#blackops-3 div  {
+  position:fixed;
+  color:#fff;
+  z-index:16;
+  left:33%;
+  width:33%;
+  top:56%;
+
+}
+
+#blackops-ski-build {
+
+}
+
+#blackops-1 {
+  position:relative;
+  left:0;
+  top:33px;
+  z-index:25;
+  background-image:url('../images/PAGE_3.png');
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position-x:50%;
+  background-position-y:50%;
+  background-attachment:fixed;
+}
+
+#blackops-2 {
+  position:relative;
+  left:0;
+  top:33px;
+  z-index:24;
+  background-image:url('../images/PAGE_5.png');
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position-x:50%;
+  background-position-y:50%;
+  background-attachment:fixed;
+}
+
+#blackops-3 {
+  position:relative;
+  left:0px;
+  top:9px;
+  z-index:23;
+  background-image:url('../images/PAGE_6.png');
+
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position-x:51%;
+  background-position-y:51%;
+  background-attachment:fixed;
+}
+
+#blackops-4 {
+  border:5px solid red;
+  width:180px;
+  height:100vh;
+  background-image:url('../images/BO_98_SpinSequence.png');
+  /*BO_98_SpinSequence.png*/
+  background-position-x:0;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  /*background-size:50%;*/
+
+  position:relative;
+  z-index:122;
+  top:0px;
+  left:50%;
+  margin-left:-160px;*/
+
+}
+
+#blackops-5 {
+  /*border:3px solid green;*/
+  width:100%;
+  height:300vh;
+  position:absolute;
+  background-image:url('../images/360.png');
+  background-size:cover;
+  background-position-x:50%;
+  background-position-y:50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+
+}
+
+
+/*PRELOAD SKI SPIN IMAGES */
+
+#spin-01 {background: url('../images/360.png') no-repeat -9999px -9999px;}
+#spin-02 {background: url('../images/10.png') no-repeat -9999px -9999px;}
+#spin-03 {background: url('../images/20.png') no-repeat -9999px -9999px;}
+#spin-04 {background: url('../images/30.png') no-repeat -9999px -9999px;}
+#spin-05 {background: url('../images/40.png') no-repeat -9999px -9999px;}
+#spin-06 {background: url('../images/50.png') no-repeat -9999px -9999px;}
+#spin-07 {background: url('../images/60.png') no-repeat -9999px -9999px;}
+#spin-08 {background: url('../images/70.png') no-repeat -9999px -9999px;}
+#spin-09 {background: url('../images/80.png') no-repeat -9999px -9999px;}
+#spin-10 {background: url('../images/90.png') no-repeat -9999px -9999px;}
+#spin-11 {background: url('../images/100.png') no-repeat -9999px -9999px;}
+#spin-12 {background: url('../images/110.png') no-repeat -9999px -9999px;}
+#spin-13 {background: url('../images/120.png') no-repeat -9999px -9999px;}
+#spin-14 {background: url('../images/130.png') no-repeat -9999px -9999px;}
+#spin-15 {background: url('../images/140.png') no-repeat -9999px -9999px;}
+#spin-16 {background: url('../images/150.png') no-repeat -9999px -9999px;}
+#spin-17 {background: url('../images/160.png') no-repeat -9999px -9999px;}
+#spin-18 {background: url('../images/170.png') no-repeat -9999px -9999px;}
+#spin-19 {background: url('../images/180.png') no-repeat -9999px -9999px;}
+#spin-20 {background: url('../images/190.png') no-repeat -9999px -9999px;}
+#spin-21 {background: url('../images/200.png') no-repeat -9999px -9999px;}
+#spin-22 {background: url('../images/210.png') no-repeat -9999px -9999px;}
+#spin-23 {background: url('../images/220.png') no-repeat -9999px -9999px;}
+#spin-24 {background: url('../images/230.png') no-repeat -9999px -9999px;}
+#spin-25 {background: url('../images/240.png') no-repeat -9999px -9999px;}
+#spin-26 {background: url('../images/250.png') no-repeat -9999px -9999px;}
+#spin-27 {background: url('../images/260.png') no-repeat -9999px -9999px;}
+#spin-28 {background: url('../images/270.png') no-repeat -9999px -9999px;}
+#spin-29 {background: url('../images/280.png') no-repeat -9999px -9999px;}
+#spin-30 {background: url('../images/290.png') no-repeat -9999px -9999px;}
+#spin-31 {background: url('../images/300.png') no-repeat -9999px -9999px;}
+#spin-32 {background: url('../images/310.png') no-repeat -9999px -9999px;}
+#spin-33 {background: url('../images/320.png') no-repeat -9999px -9999px;}
+#spin-34 {background: url('../images/330.png') no-repeat -9999px -9999px;}
+#spin-35 {background: url('../images/340.png') no-repeat -9999px -9999px;}
+#spin-36 {background: url('../images/350.png') no-repeat -9999px -9999px;}
+#spin-37 {background: url('../images/360.png') no-repeat -9999px -9999px;}
+
+#blackops-collection {
+  
+  width:100%;
+  height:300vh;
+  position:relative;
+  top:3180px;
+  background-image:url('../images/PAGE_8.png');
+  background-size:cover;
+  background-position-x:50%;
+  background-position-y:50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  z-index:130;
+
+}
+
+#lite-years {
+  position:relative;
+  width:100%;
+  height:100%;
+  top:8000;
+  z-index:131;
+}
+
+ #inst {
+  margin:0 auto;
+  text-align:center;
+  margin-bottom:100px;
+  font-size:72px;
+  color:#ffffff;
+  position:relative;
+  z-index:20000;
+
+
+}
+
+#instagram {
+  height:80%;
+  width:80%;
+  
+  position:absolute;
+  top:8500px;
+  left:10%;
+  z-index:100;
+  color:#fff;
+  background-attachment:fixed;
+}
+
+#instagram h1 {
+  font-size:150px;
+  /*text-shadow: 5px 5px 15px rgba(0,0,0,.3);*/
+  text-transform: uppercase;
+  font-weight:900;
+}
+
+
+

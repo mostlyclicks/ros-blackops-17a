@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<%= render "/refinery/html_tag" %>
+  <% site_bar = render('/refinery/site_bar', :head => true) -%>
+  <head>
+    <%= render "/refinery/head" %>
+    <%= render "/refinery/javascripts" %>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  </head>
+  <body id="<%= canonical_id @page %>" class="<%= view_template_class @page %>">
+    <%= site_bar -%>
+    <div id="page_container">
+      <header id="header">
+        <%#= render "/refinery/header" -%>
+      </header>
+      <section id="page">
+        <%= yield %>
+      </section>
+      <footer>
+        <%#= render "/refinery/footer" -%>
+      </footer>
+    </div>
+
+    <!-- <script src='https://ihatetomatoes.net/merry-christmallax/js/skrollr.js'></script> -->
+
+    <!-- <script type="text/javascript" src="js/instafeed.js"></script> -->
+
+    <!-- <script src="js/index.js"></script> -->
+
+  </body>
+</html>

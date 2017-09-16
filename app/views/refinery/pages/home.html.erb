@@ -1,0 +1,79 @@
+<%#= render '/refinery/content_page' %>
+
+<div id="info">0</div>
+
+<div id="skroll-container">
+
+<section id="welcome-to-blackops">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" >
+
+					<div class="typewriter">
+				    <h1>Welcome to Blackops</h1>
+				  </div>
+			   
+
+			</div>
+		</div>
+	</div>
+</section>
+
+</div>
+
+
+<section id="blackops-athlete-driven">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				  <img src="../assets/blackops-athlete-driven.jpg" alt="BLACKOPS ATHLETE DRIVEN" title="BLOCKOPS" class="img-responsive"
+    data-350="opacity:0;"
+    data-500="opacity:1;"
+   />
+   <div class="_row">
+   <!--  -->
+   	 <div class="col-md-4 col-md-offset-4 text-center"  
+   	 id="athlete-driven-text"
+    data-850="opacity:0;"
+    data-1000="opacity:1;display:block;position:fixed;top:32%;left:0;"
+    data-1300
+    data-1400="opacity:0;"
+
+   >
+      <h2>Athlete Driven</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+   </div>
+   </div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<div id="blackops-athlete-driven">
+  <!-- <h1>Athlete Driven</h1> -->
+  <%#= image_tag 'blackops-athlete-driven.jpg', data: {350: 'opacity:0', 500: 'opacity:1'} %>
+
+  
+  <p style="color:#fff;"></p>
+   
+</div>
+
+
+
+
+
+
+<script>
+var s = skrollr.init({
+	render: function(data) {
+	  //Log the current scroll position.
+	  $('#info').text(data.curTop);
+	}
+});
+</script>
