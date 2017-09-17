@@ -16,99 +16,40 @@ html, body {
   z-index: 9999;
 }
 
-
-#welcome-to-blackops {/*border:1px solid red;*/
+#welcome-to-blackops {
 	height:100vh;
+	#typewriter {
+		margin:35vh auto;
+		position:relative;
+	}
+}
+
+#blackops-athlete-driven {
+	img {
+		width:120%;
+	}
+	color:#fff;
+}
+
+#blackops-1 {border:1px solid red;
+	position:fixed;
+	top:1500px;
+	left:0;
+	z-index:50;
+
+/*	background-image: image-url'assets/PAGE_3.png';
+	width:100vh;
+
 	position:relative;
-	h1 {
-		/*display:block;*/
-		position:absolute;
-		top:40vh;
-		left:50%;
-		margin-left:-23rem;
-	}
-/*  position:relative;
-  width:100%;
-  height:100%;
-  background-color:#000000;
-  color:#fff;
-  z-index:1002;
-  float:left;*/
-}
-
-#typewriter-container {
-  position:absolute;
-  width:32em;
-  left:50%;
-  top:40%;
-  margin-left:-10em;
-}
-
-.typewriter h1 {
-	
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 1em solid orange !important; /* The typwriter cursor */
-  padding-left:1em;
-  border-left:1px solid black !important;
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .2em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(10, end),
-    blink-caret .75s step-end infinite;
-  text-transform: uppercase;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 40% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-right-color: transparent }
-  50% { border-right-color: orange; }
-}
-
-
-#athlete-driven-text {
-	color:#ffffff;
-	
-	p {
-		font-size:16px;
-		
-	}
-	
-}
-
-
-
-/*#blackops-athlete-driven {
-  position:relative;
-  width:100%;
-  height:100%;
-  background-color:#000;
-  color:#fff;
-}*/
-
-/*#blackops-athlete-driven img {
-  
-  width:100%;
-  position:absolute;
-  top:900px;
   left:0;
-  z-index:12;
-  background-color:#000; 
-}*/
+  top:33px;
+  z-index:25;
+  background-image:url('../images/PAGE_3.png');
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position-x:50%;
+  background-position-y:50%;
+  background-attachment:fixed;*/
 
-/*#blackops-athlete-driven div {
-  position:absolute;
-  z-index:13;
-  top:1240px;
-  left:33%;
-  width:33%;
-  color:#fff;
-  margin:0 auto 0 auto;
-  text-align:center;
-}*/
+}

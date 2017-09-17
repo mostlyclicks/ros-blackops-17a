@@ -1,0 +1,35 @@
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#media-query-flag {background-color:red;}
+	#media-query-flag:after {content: 'Small - 768px';}
+	h1#blackops-title{left:37%;}
+	h2#blackops-ahtlete-driven {top:50%;}
+	#blackops-athlete-driven {
+		img {top:15vh !important;}
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#media-query-flag {background-color:blue;}
+	#media-query-flag:after {content: 'Medium - 992px';}
+	h1#blackops-title{left:42%;}
+	#blackops-athlete-driven {
+		img {top:10vh !important;}
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	#media-query-flag {background-color:green;}
+	#media-query-flag:after {content: 'Large - 1200px';}
+	#blackops-athlete-driven {
+		img {top:5vh !important;}
+	}
+
+}

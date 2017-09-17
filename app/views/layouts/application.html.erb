@@ -6,6 +6,8 @@
     <%= render "/refinery/javascripts" %>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
   <body id="<%= canonical_id @page %>" class="<%= view_template_class @page %>">
     <%= site_bar -%>
@@ -13,6 +15,7 @@
       <header id="header">
         <%#= render "/refinery/header" -%>
       </header>
+      <div id="media-query-flag"></div>
       <section id="page">
         <%= yield %>
       </section>
