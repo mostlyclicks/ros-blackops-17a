@@ -37,7 +37,7 @@ html, body {
 
 #blackops-1 {
 	position:relative;
-	top:1000px;
+	top:1500px;
 	left:0;
 	z-index:50;
 	background-image:url('../assets/PAGE_3.png');
@@ -46,22 +46,49 @@ html, body {
 	background-size:cover;
 	background-position:50% 50%;
 	background-attachment:fixed;
-	height:100vh;
 	color:#fff;
+}
 
-/*	background-image: image-url'assets/PAGE_3.png';
-	width:100vh;
-
+#blackops-2 {
 	position:relative;
-  left:0;
-  top:33px;
-  z-index:25;
-  background-image:url('../images/PAGE_3.png');
-  width:100%;
-  height:100%;
-  background-size:cover;
-  background-position-x:50%;
-  background-position-y:50%;
-  background-attachment:fixed;*/
+	top:1500px;
+	left:0;
+	z-index:40;
+	background-image:url('../assets/PAGE_5.png');
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-attachment:fixed !important;
+	color:#fff;
+}
 
+#blackops-3 {
+	position:relative;
+	top:1500px;
+	left:0;
+	z-index:35;
+	background-image:url('../assets/PAGE_6.png');
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-position-x:50%;
+	background-position-y:50%;
+	background-attachment: fixed !important;
+	color:#fff;
+}
+
+#blackops-5 {
+	position:relative;
+	top:1500px;
+	left:0;
+	z-index:30;
+	background-image:url('../assets/360.png');
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-position-x:50%;
+	background-position-y:50%;
+	background-attachment: fixed;
 }
