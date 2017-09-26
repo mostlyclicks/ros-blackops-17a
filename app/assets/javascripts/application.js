@@ -13,8 +13,8 @@
 
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-sprockets
-// require skrollr
+//= require skrollr
 //= index
+//= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
